@@ -1,3 +1,11 @@
+import sys
+import site
+
+# Debugging: Print environment details
+print("Python executable being used:", sys.executable)
+print("Python version:", sys.version)
+print("Python site-packages location:", site.getsitepackages())
+
 import argparse
 import os
 import matplotlib.pyplot as plt
